@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2c3e50; 
+    color: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #34495e; 
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    color: #ecf0f1;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #2980b9; 
+    border-radius: 6px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    font-size: 1rem;
+    transition: border 0.3s;
+}
+
+.form-container input:focus {
+    border-color: #3498db; 
+    outline: none;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2980b9; 
+    border: none;
+    border-radius: 6px;
+    color: #ecf0f1;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+    background-color: #3498db; 
+}
+
+.message {
+    color: #e74c3c; 
+    margin-bottom: 15px;
+}
+
+.logged {
+    color: #2ecc71; 
+}
+
+.logged p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.logged form button {
+    background-color: #e74c3c; 
+}
+
+.logged form button:hover {
+    background-color: #c0392b; 
+}
